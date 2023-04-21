@@ -1,0 +1,287 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-family: "fontello", sans-serif;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+i {
+  color: #2f9cf0d8;
+}
+
+
+
+
+
+@media  only screen and (min-width: 768px) {
+  #nav-bar {
+    text-align: center;
+    position: relative;
+  }
+
+  .imgcv {
+    position: absolute;
+    top: -100%;
+    left: 45%;
+    width: 10%;
+
+    border-radius: 50%;
+    border: 10px solid #fff;
+  }
+  #banner {
+    
+    height: 100vh;
+    position: relative;
+  
+    background-image: linear-gradient(
+        rgba(8, 8, 8, 0.452),
+        rgba(43, 41, 41, 0.349)
+      ),
+      url("../images/banner.jpg");
+    background-size: cover;
+
+    color: #fff;
+    text-align: center;
+  }
+  .text-banner {
+    position: absolute;
+    font-size: 48px;
+    top: 50%;
+    left: 50%;
+    transform: translate(
+      -50%,
+      -50%
+    );
+  }
+  .info ul {
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  a {
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+ 
+  }
+
+  .icon {
+    margin-top: 30px;
+  }
+  ul {
+    list-style: none;
+  }
+  
+
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .border-job {
+    border: 1px solid rgb(206, 202, 202);
+    padding: 40px;
+    line-height: 1.6;
+  }
+  
+  .grid-job-icon {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-bottom: 30px;
+
+    margin-top: 30px;
+  }
+  .job-tittle {
+    font-size: 30px;
+  }
+  .job-icon {
+    font-size: 60px;
+    color: #adb5bd;
+  }
+  .job-text {
+    font-size: 20px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  .job ul li::before {
+    content: "\2022";
+    color: #1971c2;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    transform: translate(0, 80%);
+  }
+  
+  .grid-sothich {
+    display: flex;
+  }
+  
+  .ic-megaphone,
+  .ic-strategy,
+  .ic-hotairballoon,
+  .ic-basket {
+    font-size: 25px;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+  .ic-sothich {
+    padding: 10px;
+
+    text-align: center;
+  }
+ 
+  .point-blue {
+    background: #199cdb;
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+    margin-right: 10px;
+  }
+  .point-grey {
+    background: #dee2e6;
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+    margin-right: 10px;
+  }
+  
+  .ccgt {
+   
+    position: relative;
+  }
+  
+  .ccdn {
+    display: flex;
+    gap: 30px;
+    position: relative;
+  }
+
+  .line-dung {
+    border: 0.5px solid#d6c08d;
+    height: 150px;
+  
+    left: 50%;
+    bottom: 63%;
+}
+
+  .line-giua {
+    border: 0.5px solid #d6c08d;
+    height: 1px;
+    width: 100%;
+  
+    position: absolute;
+    top: 190px;
+}
+
+  .ccdn img {
+    width: 100%;
+}
+
+
+  .du-an img {
+    width: 100%;
+    height: auto;
+}
+  .nam {
+    background-color: #228be6;
+    color: #fff;
+
+    border-radius: 15px;
+    width: 50px;
+    height: 25px;
+    padding-left: 20%;
+}
+  .chucvu {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    gap: 30px;
+    border-top: 1px solid #adb5bd;
+    width: 100%;
+    padding: 15px;
+}
+  .area {
+    display: flex;
+    gap: 20px;
+}
+  .icon-user-1,
+  .icon-lamp {
+    color: #868e96;
+}
+  table {
+    border-collapse: collapse; 
+
+    width: 100%;
+}
+  td {
+    border-top: 1px solid #adb5bd;
+    padding: 15px;
+}
+  .tittle-duan {
+    border-top: 1px solid #adb5bd;
+    width: 100%;
+    padding: 15px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+  .cot1 {
+    width: 25%;
+    vertical-align: top;
+}
+  .cv-canhan,
+  .web-thucung,
+  .web-tintuc {
+    border: 1px solid #adb5bd;
+}
+  .link-footer {
+    display: flex;
+    gap: 30px;
+    transform: translate(40%, 0);
+}
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    font-size: 100%;
+}
+  a:link,
+  a:visited {
+    font-size: 20px;
+    text-transform: none;
+    text-decoration: none;
+}
+
+  .title-link {
+    display: flex;
+}
+  .title-link a {
+    width: auto;
+    height: 20%;
+}
+
+}
+
